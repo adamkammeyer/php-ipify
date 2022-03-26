@@ -2,8 +2,8 @@
 
 namespace Ipify;
 
-use \Requests;
-use \Requests_Exception;
+use WpOrg\Requests\Requests;
+use WpOrg\Requests\Exception;
 use Ipify\Exception\ConnectionError;
 use Ipify\Exception\ServiceError;
 
